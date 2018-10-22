@@ -1,0 +1,493 @@
+body{
+	max-width:1038px;
+	margin:15px auto;
+	background: #eaeaea;
+	font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+	-webkit-font-smoothing:antialiased;
+}
+
+header{
+	overflow: hidden;
+	background: white;
+	padding:7px 20px;
+	position:relative;
+}
+header h2{margin-top: -13px;}
+#cmss{
+	position: absolute;
+	top:14px;
+	right:109px;
+	max-width: 247px;
+	height: auto;
+}
+
+#spor{
+	position: absolute;
+	top:3px;
+	right:0px;
+	max-width: 107px;
+	height: auto;
+}
+.photo{
+	width:100%;
+	height: 460px;
+	overflow: hidden;
+	position: relative;
+}
+.text{
+	position:absolute;
+	z-index: 10;
+	top:210px;
+	left:50px;
+	width:370px;
+}
+
+#sluzby{
+	padding:10px 13px;
+	background:rgb(227, 30, 37);
+	color:white;
+	display: inline-block;
+}
+ul{
+	margin-top: -18px;
+	padding:10px 5px 10px 19px;
+	font-size:16.125px ;
+	color:white;
+	background: rgba(119,119,119,0.8);
+	border-radius: 0px 20px 20px 0px;
+	-webkit-transition:background 0.7s ease;
+			transition:background 0.7s ease;
+}
+li{	margin-bottom: 5px;}
+ul:hover{background: rgba(119,119,119,1);}
+li:last-child{margin-bottom: 0px;}
+.houses{
+	width:100%;
+	height: 460px;
+	overflow: hidden;
+}
+.wrap{
+	height: auto;
+	padding:10px 30px 20px 30px;
+	background: rgb(227, 30, 37);
+	color:white;
+
+}
+.wrap h2{
+	text-align: center;
+	margin: 5px 0px -5px 0px;
+}
+
+.group{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E51E24),
+	color-stop(1, #FFFFFF)
+);
+background-image: -o-linear-gradient(bottom, #E51E24 0%, #FFFFFF 100%);
+background-image: -moz-linear-gradient(bottom, #E51E24 0%, #FFFFFF 100%);
+background-image: -webkit-linear-gradient(bottom, #E51E24 0%, #FFFFFF 100%);
+background-image: -ms-linear-gradient(bottom, #E51E24 0%, #FFFFFF 100%);
+background-image: linear-gradient(to bottom, #E51E24 0%, #FFFFFF 100%);
+	color:black;
+	width:100%;
+	padding:0px 0px 15px 0px;
+	height: auto;
+}
+.group:before,
+.group:after { content: " "; display: table; }
+.group:after { clear: both; }
+section{
+	position:relative;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+.image2{
+	width:164px;
+	position: absolute;
+	top:24px;
+	right:123px;
+}
+.image2 img{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.info{
+	margin-left: 5%;
+	width:66.42%;
+}
+.info h2{margin-top: 30px;}
+.info p{
+	font-size: 18px;
+	line-height: 23px;
+}
+footer:before,
+footer:after { content: " "; display: table; }
+footer:after { clear: both; }
+
+footer{
+	overflow: hidden;
+	margin:0px auto;
+	background: white;
+	width:100%;
+	padding:10px 0px 0px 0px;
+	position:relative;
+}
+.kontakt{
+	float:left;
+	width:40%;
+	height: 194px;
+	line-height: 40px;
+	margin-left: 10%;
+}
+.kontakt span{padding:0px 65.125px;}
+#listel,#lismail,#lisadress{
+	position:absolute;
+	padding:0px 31.125px;
+	-webkit-transition:font-size 0.7s ease;
+			transition:font-size 0.7s ease;
+}
+#listel:hover,#lismail:hover,#lisadress:hover{font-size: 18px; }
+.openhours{
+	margin-top:50px ;
+	margin-left: 10%;
+	width: 40%;
+	line-height: 40px;
+}
+
+.image3{
+	max-width: 27%;
+	position: absolute;
+	top:5px;
+	right:19px;
+}
+.image3 img{
+	width: 100%;
+	height: 210.19px;
+	border-radius: 40px;
+	opacity:0.8;
+	-webkit-transition:opacity 0.7s ease;
+			transition:opacity 0.7s ease;
+}
+.image4{
+	max-width: 27%;
+	position: absolute;
+	top:5px;
+	right:313px;
+}
+.image4 img{
+	width: 100%;
+	height: auto;
+	border-radius: 40px;
+	opacity:0.8;
+	-webkit-transition:opacity 0.7s ease;
+			transition:opacity 0.7s ease;
+}
+
+.image4 img:hover, .image3 img:hover{opacity:1; cursor:pointer;}
+
+footer a{
+	text-decoration: none;
+	color:black;
+}
+.fa{
+	margin-top: -9px;
+	line-height: 20px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.webdesign:before,
+.webdesign:after { content: " "; display: table; }
+.webdesign:after { clear: both; }
+.webdesign{
+	background: coral;
+	color:white;
+	height: 104px;
+	padding:0px 31.125px;
+	position:relative;
+}
+.webdesign a {
+	text-decoration: none;
+	color:white;
+}
+.webdesign h3{
+	display:inline-block;
+	float:left;
+	margin-top: -5px;
+}
+#webtel,#webmail{
+	position:absolute;
+	-webkit-transition:font-size 0.7s ease;
+			transition:font-size 0.7s ease;
+}
+#webtel{left:190px;}
+#webmail{left:400px;}
+#webtel:hover,#webmail:hover{font-size: 18px;}
+
+.sheet{
+	position: fixed;
+	top:0px;
+	left:0px;
+	background: rgba(0,0,0,0.8);
+	width:100%;
+	height: 100%;
+	display:none;
+	z-index:10;
+}
+.sheet img{
+	position:absolute;
+	border:5px solid white;
+	border-radius: 10px;
+	top:60px;
+	left:50%;
+	width:60%;
+	height: auto;
+	margin-left: -30% ;
+}
+
+
+
+/*ADAPTIVE*/
+/*Header*/
+@media screen and (max-width: 950px){#cmss{display: none;}}
+@media screen and (max-width: 710px){#spor{visibility:hidden;}}
+@media screen and (max-width: 606px){
+	#spor{
+		visibility:visible;
+		top:40px;
+	}}
+@media screen and (max-width: 285px){header h1,header h2{margin-left: -15px;}}
+@media screen and (max-width: 545px){#spor{visibility:hidden;}}
+@media screen and (max-width: 275px){#spor{visibility:visible;top:103px; z-index:0; margin-right:-7px;}}
+/*Liščí služby*/
+@media screen and (max-width: 485px){
+	.text{
+		left:50%;
+		margin-left: -185px;
+	}
+}
+@media screen and (max-width: 400px){
+	.text{
+		width:100%;
+		height: auto;
+		left:0;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 300px){
+	.text{
+		width:100%;
+		height: auto;
+		left:0;
+		top:190px;
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 286px){
+	.text{	top:176px;}
+}
+
+/*Mgr. Milena Rárová*/
+@media screen and (max-width: 1027px){
+	.info h2{text-align: center;}
+	.image2{
+		width: 190px;
+		margin: 0px auto;
+		position: static;
+	}
+	.info{
+		width:90%;
+	}
+}
+@media screen and (max-width: 800px){
+	.image2{
+		position:relative;
+		left:50%;
+		margin-left: -95px;
+		top:80%;
+	}
+}
+
+/*Kontakt*/
+@media screen and (max-width: 1055px){
+	.image4{
+		max-width: 280.25px;
+		right:300px;
+		}
+	.kontakt{margin-left: 5%;}
+	.openhours{	margin-left: 5%;}
+}
+
+@media screen and (max-width: 980px){
+	.image3{
+		max-width: 205.25px;
+		left:400px;
+		top:166px;
+	}
+	.image3 img{height: 153.69px;}
+	.image4{
+		width: 205.25px;
+		left:400px;
+		}
+}
+@media screen and (max-width: 790px){
+	footer{	height: 370px;}
+	.image3{
+		max-width: 205.25px;
+		left:320px;
+		top:210px;
+	}
+	.image3 img{
+		height: 153.69px;
+		}
+	.image4{
+		width: 205.25px;
+		top:210px;
+		left:105px;
+		}
+	.openhours{
+		position:absolute;
+		top:-40px;
+		left:300px;
+		margin-left: 10%;
+		width: 40%;
+		line-height: 40px;
+		}
+}
+
+@media screen and (max-width: 620px){
+	.kontakt strong{left:50%;}
+	footer{	height: 493px ;}
+	.image3{
+		max-width: 205.25px;
+		left:245px;
+		top:328px;
+	}
+	.image3 img{
+		height: 153.69px;
+		}
+	.image4{
+		width: 205.25px;
+		top:328px;
+		left:5%;
+		}
+		.kontakt{width:80%;	}
+		.openhours{
+			top:160px;
+			left:5%;
+			width:60%;
+		}
+}
+@media screen and (max-width: 531px){
+	footer{	height: 490px ;}
+	.image3{top:328px;	}
+	.image4{top:328px;}
+	.openhours{width:90%;}
+}
+@media screen and (max-width: 496px){
+	footer{	height: 665px ;}
+	.image3{
+		left:50%;
+		margin-left: -102.625px;
+		top:510px;
+	}
+	.image3 img{height: 153.69px;}
+	.image4{
+		top:346px;
+		left:50%;
+		margin-left: -102.625px;
+		}
+		.openhours{
+			top:178px;
+			margin-left: 5%;
+		}
+		.kontakt{
+			float:left;
+			width:80%;
+			height: 194px;
+			margin-left: 5%;
+		}
+		.kontakt span{padding:0px 33.125px;}
+		#listel,#lismail,#lisadress{padding:0px 0px ;}
+}
+@media screen and (max-width: 360px){
+	.kontakt{
+		width: 93%;
+		margin-left: 4px;
+	}
+	.openhours{
+		margin-left: -15px;
+		width: 95%;
+	}
+}
+@media screen and (max-width: 349px){
+	.image3{top:508px;}
+	.image4{top:342px;}
+}
+@media screen and (max-width: 342px){
+	footer{ height: 700px;}
+	.openhours{
+		margin-left: -10px;
+		width: 97%;
+	}
+	.image3{top:545px;}
+	.image4{top:382px;}
+}
+@media screen and (max-width: 330px){
+	#lisadress{line-height: 19px; top:140px;}
+	.fa-envelope{
+		margin-right: -4px;
+	}
+	#lismail{
+	-webkit-transition:font-size 0.7s ease;
+			transition:font-size 0.7s ease;
+}
+#lismail:hover{font-size: 17.97px; }
+}
+
+
+	/*Webdesign*/
+
+@media screen and (max-width: 700px){
+	.webdesign{	height: 140px;}
+
+	#webtel{
+		left:31.125px;
+		top:100px;
+	}
+	#webmail{
+		left:241.125px;
+		top:100px;
+	}
+}
+
+@media screen and (max-width: 525px){
+	.webdesign{	height: 175px;}
+	#webmail{
+		left:31.125px;
+		top:140px;
+	}
+	}
+@media screen and (max-width: 500px){
+	.webdesign{	height: 215px;}
+	#webtel{top:130px;}
+	#webmail{top:170px;	}
+	}
+@media screen and (max-width: 315px){
+	.webdesign{	height: 215px; padding:0px 31.125px 0px 3px;}
+	#webtel{left:3px;}
+	#webmail{left:3px;}
+	#Michael{margin-left: 6px;}
+	}
+
+
+
+
+
+
+
+
